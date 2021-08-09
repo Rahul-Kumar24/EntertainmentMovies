@@ -1,8 +1,8 @@
-This is movies app trending of the movies list and series list
+# This is movies app trending of the movies list and series list
 
-clone the directory and type a command npm install
+# clone the directory and type a command npm install
 
-
+App link https://6111479fb9f79600bbb84c45--adoring-dijkstra-1f7390.netlify.app/
 
 # Getting Started with Create React App
 
