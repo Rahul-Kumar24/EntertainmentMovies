@@ -10,7 +10,7 @@ const Gallery = ({ id, media_type }) => {
   const [credits, setCredits] = useState([]);
   const items = credits.map((c) => (
     <div className="carouselItem">
-      <img
+      <img 
         src={c.profile_path ? `${img_300}/${c.profile_path}` : noPicture}
         alt={c?.name}
         onDragStart={handleDragStart}
@@ -19,7 +19,7 @@ const Gallery = ({ id, media_type }) => {
       <b className="carouselItem__txt">{c?.name}</b>
     </div>
   ));
-
+  
   const responsive = {
     0: {
       items: 3,
